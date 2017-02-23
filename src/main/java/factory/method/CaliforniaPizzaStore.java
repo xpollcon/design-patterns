@@ -1,4 +1,4 @@
-package factory;
+package factory.method;
 
 /**
  * Created by xpollcon on 21/02/2017.

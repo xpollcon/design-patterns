@@ -1,23 +1,20 @@
-package factory;
+package factory.method;
 
 /**
  * Created by xpollcon on 21/02/2017.
  */
-
-public class ChicagoStylePizzaStore extends PizzaStore {
+public class NYStylePizzaStore extends PizzaStore {
 
     @Override
     public Pizza createPizza(String type) {
         if (type.equals("cheese")){
-            return new ChicagoStyleCheesePizza();
+            return new NYStyleCheesePizza();
         }else if (type.equals("pepperoni")){
-            return new ChicagoStylePepperoniPizza();
+            return new NYStylePepperoniPizza();
         }else if (type.equals("clam")){
-            return new ChicagoStyleClamPizza();
+            return new NYStyleClamPizza();
         }else if (type.equals("veggie")){
-            return new ChicagoStyleVeggiePizza();
+            return new NYStyleVeggiePizza();
         }else return null;
     }
-
-
 }
