@@ -3,7 +3,7 @@ package decorator;
 /**
  * Created by xpollcon on 14/02/2017.
  */
-public class StatbuzzCoffee {
+public class StarbuzzCoffee {
 
     public static void main(String args[]){
 
